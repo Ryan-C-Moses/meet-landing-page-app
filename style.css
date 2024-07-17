@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root {
+    --footer-blue: #4D96A9;
+    --purple: #855FB1;
+    --bold-font-color: #28283D;
+    --reg-font-color: #87879D;
+    --overline-blue: #8FE3F9;
+    --light-purple: #D9B8FF;
+    --white-font-color: #FAFAFA; 
+}
+
