@@ -10,6 +10,15 @@
     --white-font-color: #FAFAFA;
 }
 
+/* Font Classes */
+
+.red-hat-display {
+    font-family: "Red Hat Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
 /* CSS RESET */
 html {
     box-sizing: border-box;
@@ -45,5 +54,12 @@ header {
     height: 13vh;
     display: flex;
     justify-content: center;
+    align-items: center;
+}
+
+.first-section {
+    height: 26vh;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
 }
