@@ -74,6 +74,7 @@ h4,
 h5,
 h6,
 p,
+hr,
 ol,
 ul {
     margin: 0;
@@ -99,6 +100,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 117px;
 }
 
 .main-title {
@@ -146,4 +148,38 @@ header {
     border-radius: 29px;
     background-color: var(--purple);
     margin-left: 1rem;
+}
+
+.number-component {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    height: 140px;
+    width: 56px;
+}
+
+.number-component .line {
+    width: 1px;
+    height: 84px;
+    stroke-width: 1px;
+    stroke: var(--reg-font-color);
+    opacity: 0.25;
+}
+
+.number-component .circle {
+    width: 56px;
+    height: 56px;
+    border-radius: 29px;
+    border: 1px solid rgba(135, 135, 157, 0.25);
+    background: var(--white-font-color);
+    text-align: center;
+}
+
+.circle span {
+    display: inline-block;
+    width: fit-content;
+    margin-top: 14px;
+    margin-bottom: 14px;
 }
