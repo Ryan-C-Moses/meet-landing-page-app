@@ -105,14 +105,26 @@ header {
     width: 25vw;
 }
 
+.hero-left {
+    margin-top: -105px;
+}
+
 .first-section div:nth-child(2) {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    height: 22vh;
+    height: auto;
     width: 31vw;
     text-align: center;
+}
+
+.first-section div:nth-child(2) p {
+    margin-top: 34px;
+}
+
+.btn-group {
+    margin-top: 32px;
 }
 
 .btn1 {
