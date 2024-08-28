@@ -122,7 +122,7 @@ header {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 117px;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 .main-title {
@@ -161,7 +161,7 @@ header {
     height: 58px;
     border: none;
     border-radius: 29px;
-    background-color: var(--footer-blue);
+    background-color: var(--darker-blue);
 }
 
 .btn1 span {
