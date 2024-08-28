@@ -106,14 +106,20 @@ header {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 117px;
+    overflow-x: hidden;
 }
 
 .main-title {
-    width: 25vw;
+    min-width: 25vw;
 }
 
 .hero-left {
     margin-top: -105px;
+    margin-left: -32px;
+}
+
+.hero-right {
+    margin-right: -32px;
 }
 
 .first-section div:nth-child(2) {
@@ -122,7 +128,7 @@ header {
     justify-content: space-between;
     align-items: center;
     height: auto;
-    width: 31vw;
+    max-width: 31vw;
     text-align: center;
 }
 
@@ -196,8 +202,8 @@ header {
 }
 
 .img-group {
-    width: 255px;
-    height: 242px;
+    max-width: 255px;
+    max-height: 242px;
     border-radius: 8px;
     margin-right: 30px;
 }
