@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
 
 :root {
-    --darker-blue: #4D96A9;
+    --darker-blue: rgb(77, 150, 169);
     --purple: #855FB1;
     --bold-font-color: #28283D;
     --reg-font-color: #87879D;
@@ -97,7 +97,8 @@ h6,
 p,
 hr,
 ol,
-ul {
+ul,
+footer {
     margin: 0;
     padding: 0;
 }
@@ -257,17 +258,45 @@ header {
 }
 
 .footer-overlay {
-    width: 100%;
+    border-image: linear-gradient(rgb(77, 150, 169, 0.8), rgb(77, 150, 169, 0.8)) fill 1;
+}
+
+.footer-number-component {
+    z-index: 1;
     position: absolute;
+    top: -14%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
 }
 
 footer {
-    width: auto;
-    min-height: 308px;
-    opacity: 0.1045;
+    position: relative;
     background-image: url('assets/desktop/image-footer.jpg');
-    background-color: violet;
-    background-blend-mode: "multiply";
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 308px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 165px;
+    padding-right: 165px;
+    margin-top: 184px;
+}
+
+footer h2 {
+    max-width: 350px;
+}
+
+footer p {
+    font-size: 1.1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    max-width: 350px;
+    color: #FFF;
+    color: var(--white-font-color);
 }
 
 .footer-btn {
