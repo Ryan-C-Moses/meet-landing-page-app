@@ -118,9 +118,9 @@ header {
 
 .first-section {
   /* min-height: 26vh; */
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  /* display: flex; */
+  /* justify-content: space-between; */
+  /* align-items: center; */
   /* margin-bottom: 117px; */
   overflow: hidden;
 }
@@ -212,7 +212,7 @@ header {
 }
 
 .second-section {
-  display: flex;
+  /* display: flex; */
   /* margin-top: 64px; */
   /* margin-bottom: 80px; */
 }
