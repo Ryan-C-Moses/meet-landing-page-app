@@ -1,12 +1,9 @@
 {
   "scripts": {
-    "test": "echo \"Error: I SHOULD FAIL LOLOLOLOLOL \" && exit 1",
-    "foo": "echo \"fooo\" && exit 0",
-    "bar": "echo \"bar\" && exit 0",
-    "test2": "python3 app.py"
+    "test": "python3 test.py"
   },
   "pre-commit": [
-    "test2"
+    "test"
   ],
   "devDependencies": {
     "pre-commit": "^1.2.2"
