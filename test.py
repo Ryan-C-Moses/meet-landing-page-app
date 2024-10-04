@@ -3,7 +3,7 @@ str = '\nThis is just a placeholder for some python code, in the future, strictl
 notice = 'Please Disregard\n'
 
 def print_notice(): 
- return str + '\n' + notice
+ print(str + '\n' + notice)
 
 
 print_notice()
