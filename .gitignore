@@ -16,3 +16,4 @@
 .prettierignore
 
 meet-landing-page-figma/
+node_modules/
