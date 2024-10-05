@@ -79,7 +79,7 @@ html {
 *,
 *:before,
 *:after {
-  box-sizing: inherit;
+  box-sizing: border-box;
 }
 
 body {
@@ -102,15 +102,9 @@ footer {
   padding: 0;
 }
 
-img {
-  /* max-width: 100%; */
-  /* height: auto; */
-}
-
 /* END OF CSS RESET */
 
 header {
-  /* min-height: 13vh; */
   padding: 4.41em 0;
 }
 
@@ -129,48 +123,52 @@ header img {
 }
 
 .first-section {
-  /* min-height: 26vh; */
-  /* display: flex; */
+  display: flex;
   /* justify-content: space-between; */
-  /* align-items: center; */
+  align-items: center;
   /* margin-bottom: 117px; */
-  overflow: hidden;
-}
-
-.main-title {
-  /* min-width: 25vw; */
+  border: solid 2px red;
 }
 
 .hero-left {
-  /* margin-top: -105px; */
-  /* margin-left: -32px; */
+  position: relative;
+  top: -50px;
+  left: -2.125em;
 }
 
 .hero-right {
-  /* margin-right: -32px; */
+  object-position: 2.125em;
+}
+
+.main-title {
+  width: 77%;
+  max-width: 445px;
+  margin: 0 auto;
+  border: solid 2px brown;
 }
 
 .first-section div:nth-child(2) {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  /* height: auto; */
-  /* max-width: 31vw; */
+  width: 38.025%;
+  min-width: 450px;
   text-align: center;
+  margin: 0 5.5em;
+  border: solid 1px green;
 }
 
 .first-section div:nth-child(2) p {
-  /* margin-top: 34px; */
+  width: 100%;
+  min-width: 327px;
+  margin-top: 1.94em;
+  margin-bottom: 1.85em;
 }
 
-.btn-group {
-  /* margin-top: 32px; */
-}
+/* .btn-group {
+  margin-top: 32px;
+} */
 
 .btn1 {
-  /* width: 193px; */
-  /* height: 58px; */
+  width: 35%;
+  padding: 1em 0;
   border: none;
   border-radius: 29px;
   background-color: var(--darker-blue);
@@ -181,12 +179,12 @@ header img {
 }
 
 .btn2 {
-  /* width: 139px; */
-  /* height: 58px; */
+  width: 25%;
+  padding: 1em 0;
   border: none;
   border-radius: 29px;
   background-color: var(--purple);
-  /* margin-left: 1rem; */
+  margin-left: 1em;
 }
 
 .number-component {
@@ -322,7 +320,29 @@ footer p {
   color: var(--light-purple);
 }
 
+@media (min-width: 1440px) {
+  .first-section {
+    justify-content: space-between;
+  }
+
+  .first-section div:nth-child(2) {
+    margin: 0;
+  }
+}
+
 @media (max-width: 768px) {
+  .first-section {
+    flex-direction: column;
+  }
+
+  .first-section div:nth-child(2) {
+    width: 61.4%;
+  }
+
+  .hero-left {
+    position: static;
+  }
+
   .hero-right {
     display: none;
   }
