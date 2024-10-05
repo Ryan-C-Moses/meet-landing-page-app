@@ -111,9 +111,21 @@ img {
 
 header {
   /* min-height: 13vh; */
+  padding: 4.41em 0;
+}
+
+header img {
+  display: block;
+  margin: 0 auto;
+}
+
+.container {
+  width: 100%;
+}
+
+.row {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: row;
 }
 
 .first-section {
