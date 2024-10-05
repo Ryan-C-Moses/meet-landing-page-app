@@ -321,3 +321,9 @@ footer p {
 .footer-btn span {
   color: var(--light-purple);
 }
+
+@media (max-width: 768px) {
+  .hero-right {
+    display: none;
+  }
+}
