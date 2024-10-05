@@ -202,22 +202,22 @@ header img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* margin: 0 auto; */
-  /* height: 140px; */
-  /* width: 56px; */
+  margin: 0 auto;
+  padding: 3.4em 0;
+  width: 56px;
 }
 
 .number-component .line {
-  /* width: 1px; */
-  /* height: 84px; */
+  width: 1px;
+  height: 84px;
   stroke-width: 1px;
   stroke: var(--reg-font-color);
   opacity: 0.25;
 }
 
 .number-component .circle {
-  /* width: 56px; */
-  /* height: 56px; */
+  width: 56px;
+  height: 56px;
   border-radius: 29px;
   border: 1px solid rgba(135, 135, 157, 0.25);
   background: var(--white-font-color);
@@ -226,9 +226,8 @@ header img {
 
 .circle span {
   display: inline-block;
-  /* width: fit-content; */
-  /* margin-top: 14px; */
-  /* margin-bottom: 14px; */
+  margin-top: 14px;
+  margin-bottom: 14px;
 }
 
 .second-section {
