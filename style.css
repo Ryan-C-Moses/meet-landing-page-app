@@ -133,6 +133,11 @@ header img {
   margin-bottom: 117px;
 }
 
+.image-hero-container {
+  display: none;
+  margin-bottom: 72px;
+}
+
 .hero-left {
   width: 25%;
   align-self: flex-start;
@@ -177,7 +182,7 @@ header img {
 } */
 
 .btn1 {
-  width: 35%;
+  min-width: 193px;
   padding: 1em 0;
   border: none;
   border-radius: 29px;
@@ -189,7 +194,7 @@ header img {
 }
 
 .btn2 {
-  width: 25%;
+  min-width: 139px;
   padding: 1em 0;
   border: none;
   border-radius: 29px;
@@ -345,11 +350,15 @@ footer p {
   }
 
   .hero-left {
-    position: static;
+    display: none;
   }
 
   .hero-right {
     display: none;
+  }
+
+  .image-hero-container {
+    display: block;
   }
 
   .second-section {
