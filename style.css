@@ -208,7 +208,7 @@ header img {
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-  padding: 3.4em 0;
+  padding-bottom: 3.4em;
   width: 56px;
 }
 
@@ -331,6 +331,10 @@ footer p {
 }
 
 @media (max-width: 1270px) {
+  .first-section {
+    margin-bottom: 100px;
+  }
+
   .red-hat-display-h1 {
     font-size: 3.5rem;
   }
@@ -348,6 +352,7 @@ footer p {
 
   .first-section {
     flex-direction: column;
+    margin-bottom: 80px;
   }
 
   .first-section div:nth-child(2) {
@@ -407,6 +412,10 @@ footer p {
   .red-hat-display-h1 {
     font-size: 2.5rem;
     line-height: 44px;
+  }
+
+  .first-section {
+    margin-bottom: 64px;
   }
 
   .main-title {
