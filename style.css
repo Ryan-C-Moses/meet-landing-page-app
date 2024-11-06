@@ -169,7 +169,7 @@ header img {
 }
 
 .first-section div:nth-child(2) p {
-  width: 95%;
+  width: 72%;
   max-width: 540px;
   margin-top: 1.94em;
   margin-bottom: 1.85em;
@@ -182,7 +182,7 @@ header img {
 } */
 
 .btn1 {
-  min-width: 193px;
+  width: 193px;
   padding: 1em 0;
   border: none;
   border-radius: 29px;
@@ -194,7 +194,7 @@ header img {
 }
 
 .btn2 {
-  min-width: 139px;
+  width: 139px;
   padding: 1em 0;
   border: none;
   border-radius: 29px;
@@ -341,12 +341,21 @@ footer p {
 }
 
 @media (max-width: 768px) {
+  .red-hat-display-h1 {
+    font-size: 3rem;
+    line-height: 48px;
+  }
+
   .first-section {
     flex-direction: column;
   }
 
   .first-section div:nth-child(2) {
     width: 61.4%;
+  }
+
+  .main-title {
+    max-width: 339px;
   }
 
   .hero-left {
@@ -391,5 +400,24 @@ footer p {
   }
   .second-section {
     margin-bottom: 64px;
+  }
+}
+
+@media (max-width: 500px) {
+  .red-hat-display-h1 {
+    font-size: 2.5rem;
+    line-height: 44px;
+  }
+
+  .main-title {
+    max-width: 292px;
+  }
+
+  .btn-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 132px;
   }
 }
