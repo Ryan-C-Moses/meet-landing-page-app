@@ -277,7 +277,7 @@ header img {
 .footer-number-component {
   z-index: 1;
   position: absolute;
-  top: -14%;
+  top: -5%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -397,6 +397,10 @@ footer p {
     max-width: 573px;
     margin-bottom: 40px;
   }
+
+  .footer-number-component {
+    top: -4%;
+  }
 }
 
 @media (max-width: 600px) {
@@ -428,5 +432,9 @@ footer p {
     justify-content: space-between;
     align-items: center;
     min-height: 132px;
+  }
+
+  .footer-number-component {
+    top: -2.5%;
   }
 }
